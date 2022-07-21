@@ -1,0 +1,38 @@
+/*Slider*/
+.swiper-container {
+
+    >.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 0;
+
+        .swiper-pagination-bullet {
+            width: 25px;
+            height: 2px;
+            opacity: 0.1;
+            background: var(--tertiary-color);
+            border-radius: 0;
+
+            &.swiper-pagination-bullet-active {
+                opacity: 1;
+            }
+        }
+
+        &.white {
+            .swiper-pagination-bullet {
+                background: rgb(0, 0, 0);
+            }
+        }
+
+        .swiper-pagination-progressbar {
+            background: red;
+            height: 2px;
+            top: auto;
+            bottom: 0;
+
+            .swiper-pagination-progressbar-fill {
+                background: red;
+            }
+        }
+    }
+}

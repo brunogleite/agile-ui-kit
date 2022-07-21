@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="22" viewBox="0 0 43 22">
+  <defs>
+    <polygon id="icon-development-a" points="0 22 22 22 22 0 0 0"/>
+    <polygon id="icon-development-b" points="0 22 22 22 22 0 0 0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#EF6F6C" opacity=".5" xlink:href="#icon-development-a"/>
+    <use fill="#EF6F6C" transform="translate(21)" xlink:href="#icon-development-b"/>
+  </g>
+</svg>

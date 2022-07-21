@@ -1,0 +1,718 @@
+#contents {
+    &.case-study {
+        #case-study-info {
+            margin-bottom: 150px;
+
+            #top-title {
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+
+            .top-img-wrapper{
+                width: 100%;
+                height: 100%;
+                position: relative;
+
+                .top-img-first-shadow , .top-img-last-shadow{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+
+                }
+
+                .top-img-first-shadow {
+                    right: -10px;
+                    top: -10px;
+                    background-color: var(--primary-color);
+                    z-index: -1;
+                }
+
+                .top-img-last-shadow {
+                    right: -20px;
+                    top: -20px;
+                    background-color: var(--tertiary-color);
+                    z-index: -2;
+                }
+
+                
+            }
+
+            #top-img {
+                padding-top: 35%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+
+                .customer-avatar-wrapper{
+
+                    width: 155px;
+                    height: 155px;
+                    position: relative;
+                    z-index: 10;
+
+                    #customer-avatar {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        padding: 20px 25px;
+                        bottom: -60px;
+                        background-color: var(--secondary-color);
+    
+                        .customer-title{
+                            color: var(--tertiary-color);
+                        }
+    
+    
+                        #customer-logo {
+                            background-size: contain;
+                            width: 150px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            align-content: center;
+                            height: 150px;
+                            margin: auto;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -75px;
+                            margin-left: -75px;
+                        }
+                    }
+
+                    .customer-avatar-first-shadow, .customer-avatar-last-shadow{
+                        width: 120%;
+                        height: 120%;
+                        position: absolute;
+                    }
+
+                    .customer-avatar-first-shadow{
+                        top: 10px;
+                        right: -20px;
+                        background-color: var(--tertiary-color);
+                        z-index: -1;
+                    }
+
+                    .customer-avatar-last-shadow{
+                        top: 0px;
+                        right: -10px;
+                        background-color: var(--primary-color);
+                        z-index: -2;
+                    }
+                }
+
+              
+            }
+
+            #info-wrapper {
+                padding-top: 115px;
+            }
+
+            #title {
+                margin-bottom: 50px;
+                color: var(--tertiary-color);
+            }
+
+            .hight-light {
+                font-size: 30px;
+                font-weight: 300;
+            }
+
+            .sub-title {
+                margin-top: 50px;
+                color: var(--secondary-color)
+            }
+
+            .text-with-columns {
+                margin-top: 80px;
+                margin-bottom: 140px;
+
+                &.two-columns {
+                    .flex-container {
+                        .w-50-p {
+
+                            &:nth-of-type(odd) {
+                                margin-right: 5%;
+                            }
+
+                            &:nth-of-type(even) {
+                                margin-left: 5%;
+                            }
+
+                        }
+                    }
+                }
+
+                &.three-columns {
+                    .flex-container {
+                        .w-33-p {
+
+                            &:nth-of-type(1) {
+                                width: 30%;
+                                margin-right: 3%;
+                            }
+
+                            &:nth-of-type(2) {
+                                width: 30%;
+                                margin-left: 1.5%;
+                                margin-right: 1.5%;
+                            }
+
+                            &:nth-of-type(3) {
+                                width: 30%;
+                                margin-left: 3%;
+                            }
+                        }
+                    }
+                }
+
+                &.images {
+                    margin-bottom: 60px;
+
+                    .flex-container {
+                        .w-50-p {
+                            .img {
+                                width: 100%;
+                                background-position: center;
+                                background-size: cover;
+                                padding-top: 65%;
+                            }
+
+                            &:nth-of-type(odd) {
+                                margin-right: 4%;
+                            }
+
+                            &:nth-of-type(even) {
+                                margin-left: 4%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .text-section {
+                margin-bottom: 100px;
+                color: var(--tertiary-color);
+            }
+        }
+
+        #next-cases {
+            padding-top: 50px;
+            position: relative;
+            z-index: 0;
+            margin-bottom: 200px;
+            background-color: var(--secondary-color);
+
+            h3 {
+                padding: 38px;
+                color: var(--lightText);
+            }
+
+            #next-cases-container {
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+
+            .next-case-item {
+                padding-left: 30px;
+                padding-right: 30px;
+                z-index: 1;
+                height: 100%;
+
+                a {
+                    text-decoration: none;
+
+                    .next-case-img {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        padding-top: 70%;
+                    }
+
+                    .next-case-title {
+                        margin-top: 20px;
+                        font-size: 30px;
+                        margin-bottom: 30px;
+                        color: var(--tertiary-color);
+                    }
+                }
+            }
+
+            &::before {
+                position: absolute;
+                content: "";
+                bottom: -1px;
+                left: -1px;
+                right: -1px;
+                height: 175px;
+                background-color: white;
+                z-index: -1;
+            }
+        }
+
+        .contact-us{
+
+            span{
+                color: var(--secondary-color);
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1400px) {
+    #contents {
+        &.case-study {
+            #case-study-info {
+                #top-img {
+                    #customer-avatar {
+                        width: 200px;
+                        height: 200px;
+                        position: absolute;
+                        padding: 20px 25px;
+                    }
+                }
+
+                #info-wrapper {
+                    #title {
+                        font-size: 70px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    #contents {
+        &.case-study {
+            #case-study-info {
+                #top-title {
+                    font-size: 50px;
+                }
+
+                #top-img {
+                    #customer-avatar {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+
+                #info-wrapper {
+                    #title {
+                        font-size: 50px;
+                    }
+                }
+            }
+
+            #next-cases {
+                h3 {
+                    font-size: 42px;
+                }
+
+                .next-case-item {
+                    padding-left: 15px;
+                    padding-right: 15px;
+
+                    a {
+                        .next-case-title {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width: 900px) {
+
+    /*tablet vertical*/
+    /*mobile*/
+    #contents {
+        &.case-study {
+            #case-study-info {
+                margin-bottom: 100px;
+
+                #top-title {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    font-size: 45px;
+                }
+
+                #top-img {
+                    padding-top: 57%;
+
+                    .visible-desktop{
+                        display: inline-block;
+                    }
+                }
+
+                #info-wrapper {
+                    padding-top: 50px;
+
+                    .w-80-p {
+                        width: 100%;
+                    }
+
+                    h1#title {
+                        margin-bottom: 70px;
+                        font-size: 50px;
+                        margin-top: 20px;
+                    }
+
+                    .hight-light {
+                        font-size: 26px;
+                        line-height: 1.4;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                    }
+
+                    .text {
+
+                        p {
+                            margin-block-start: 1.5em;
+                            margin-block-end: 1.5em;
+
+                            &:first-child {
+                                margin-block-start: 0;
+                            }
+                        }
+                    }
+
+                    .sub-title {
+                        font-size: 30px;
+                        margin-top: 90px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .visible-mobile {
+                    display: none;
+                    text-align: center;
+                    width: 100%;
+
+                    #customer-logo-mobile {
+                        height: 70px;
+                        width: 180px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 0px;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            #next-cases {
+                padding-top: 40px;
+
+                h3 {
+                    font-size: 50px;
+                    font-weight: 300;
+                }
+
+                .visible-mobile {
+                    width: 100%;
+
+                    .swiper-container {
+                        padding-bottom: 30px;
+                    }
+                }
+
+                .next-case-item {
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    a {
+                        .next-case-title {
+                            padding: 0 10px;
+                            font-size: 32px;
+                            margin-top: 30px;
+                        }
+
+                        .next-case-img {
+                            padding-top: 67%;
+                            ;
+                        }
+                    }
+                }
+
+                &::before {
+                    height: 230px;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:900px) {
+    #contents {
+        &.case-study {
+            #case-study-info {
+
+                .text-with-columns.two-columns,
+                .text-with-columns.three-columns {
+                    margin-top: 80px;
+                    margin-bottom: 140px;
+
+                    .flex-container {
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                        flex-direction: column;
+
+                        .w-50-p,
+                        .w-33-p {
+                            margin-bottom: 50px;
+
+                            &:nth-of-type(even),
+                            &:nth-of-type(odd) {
+                                margin-left: 0;
+                                margin-right: 0;
+                                width: 100%;
+                            }
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+
+
+                    &.images {
+                        margin-bottom: 0px;
+                        margin-top: -50px;
+
+                        .flex-container {
+                            .w-50-p {
+
+
+                                &:nth-of-type(even),
+                                &:nth-of-type(odd) {
+                                    margin-left: -30px;
+                                    margin-right: -30px;
+                                    width: calc(100% + 60px);
+
+                                    @media only screen and (min-width:501px) and (max-width:900px) {
+                                        margin-left: -50px;
+                                        margin-right: -50px;
+                                        width: calc(100% + 100px);
+                                    }
+
+                                }
+
+                                &:first-of-type {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        &.visible-mobile {
+                            margin-bottom: -50px;
+                            margin-top: -50px;
+
+                            .flex-container {
+                                .w-50-p {
+                                    &:last-of-type {
+                                        display: none;
+                                    }
+
+                                    &:first-of-type {
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .text-section {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #contents {
+        &.case-study {
+            #case-study-info {
+                margin-bottom: 100px;
+                margin-left: 0 ;
+                margin-right: 0 ;
+                width: 100%;
+                max-width: 100vw;
+                padding-left: 0 ;
+                padding-right: 0 ;
+
+              
+
+                #top-title {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    font-size: 45px;
+                }
+
+                #top-img {
+                    padding-top: 18%;
+
+                }
+
+                .top-img-first-shadow, .top-img-last-shadow{
+                    display: none;
+                }
+
+                .customer-avatar-first-shadow, .customer-avatar-last-shadow{
+                    display: none;
+                }
+
+                #info-wrapper {
+                    padding-top: 50px;
+
+                    .w-80-p {
+                        width: 100%;
+                    }
+
+                    h1 {
+                        margin-bottom: 90px;
+                    }
+
+                    .hight-light {
+                        font-size: 26px;
+                        line-height: 1.4;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                    }
+
+                    .text {
+                        p {
+                            margin-block-start: 1.5em;
+                            margin-block-end: 1.5em;
+
+                            &:first-child {
+                                margin-block-start: 0;
+                            }
+                        }
+
+                        &-section-paragraph{
+                            width: 100%;
+                        }
+                    }
+
+                    .sub-title {
+                        font-size: 26px;
+                        margin-top: 90px;
+                        margin-bottom: 40px;
+                        width: 102%;
+                        
+                    }
+                }
+
+                .visible-mobile {
+                    text-align: center;
+                    width: 100%;
+                    
+
+                    .customer{
+                        background-color: var(--secondary-color);
+                        position: relative;
+                        width: 70%;
+                        margin: 40px auto;
+
+                        #customer-logo-mobile {
+                            height: 180px;
+                            width: 180px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 0px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-position: center;
+                            margin-bottom: 20px;
+                        }
+    
+                        .customer-avatar-first-shadow-mobile, .customer-avatar-last-shadow-mobile{
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                        }
+
+                        .customer-avatar-first-shadow-mobile{
+                            background-color: var(--tertiary-color);
+                            top: -2vh;
+                            left: -5vw;
+                            z-index: -1;
+                        }
+
+                        .customer-avatar-last-shadow-mobile{
+                            background-color: var(--primary-color);
+                            top: -4vh;
+                            left: -8vw;
+                            z-index: -2;
+                        }
+
+                        &-title{
+                            color: var(--tertiary-color);
+                            padding-top: 1em;
+                            font-size: 26px;
+                        }
+
+                    }
+
+                   
+                }
+            }
+
+            #next-cases {
+                padding-top: 40px;
+
+                h3 {
+                    font-size: 40px;
+                    font-weight: 300;
+                }
+
+                .visible-mobile {
+                    width: 100%;
+
+                    .swiper-container {
+                        padding-bottom: 30px;
+                    }
+                }
+
+                .next-case-item {
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    a {
+                        .next-case-title {
+                            padding: 0 10px;
+                            font-size: 26px;
+                            margin-top: 30px;
+                        }
+
+                        .next-case-img {
+                            padding-top: 67%;
+                            ;
+                        }
+                    }
+                }
+
+                &::before {
+                    height: 230px;
+                }
+            }
+
+        }
+    }
+}
+
+

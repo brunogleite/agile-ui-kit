@@ -1,0 +1,15 @@
+@media only screen and (min-width: 501px) and (max-width: 1400px) {
+    #top-title {
+        font-size: 10vw;
+
+        &h2,
+        &.h2 {
+            font-size: 70px;
+        }
+    }
+
+    h2,
+    .h2 {
+        font-size: 70px;
+    }
+}

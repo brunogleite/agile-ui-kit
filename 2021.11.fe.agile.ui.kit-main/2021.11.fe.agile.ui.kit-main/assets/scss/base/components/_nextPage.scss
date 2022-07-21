@@ -1,0 +1,92 @@
+@media only screen and (min-width:501px) and (max-width: 900px) {
+    /*tablet vertical*/
+    /*mobile*/
+    #contents {
+        .next-page-href-wrapper,
+        .contact-us .next-page-href-wrapper {
+            .w-40-p {
+                width: 100%;
+
+                &.offset-60-p {
+                    margin-left: 0;
+                }
+
+                .next-page-href {
+                    display: block;
+                    font-size: 45px;
+                    margin-bottom: 100px;
+
+                    &::after {
+                        height: 40px;
+                        width: 75px;
+                        bottom: -40px;
+                    }
+                }
+            }
+
+            .figures {
+                top: -120px;
+                bottom: 0;
+                left: 0;
+                width: 50%;
+
+                .triangle {
+                    width: 120px;
+                    height: 120px;
+                    left: 30px;
+                    top: -110px;
+                }
+
+                .semi-circles {
+                    width: 120px;
+                    height: 120px;
+                    left: 145px;
+                    top: -50px;
+
+                    .semi-circle {
+                        width: 120px;
+                        height: 60px;
+
+                        img {
+                            width: 60px;
+                            height: 120px;
+                            top: -30px;
+                            left: 30px;
+                        }
+
+                        &:last-child {
+                            top: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #contents {
+        .next-page-href-wrapper,
+        .contact-us .next-page-href-wrapper {
+            .w-40-p {
+                width: 100%;
+
+                &.offset-60-p {
+                    margin-left: 0;
+                }
+
+                .next-page-href {
+                    display: block;
+                    font-size: 26px;
+                    margin-bottom: 100px;
+
+                    &::after {
+                        height: 40px;
+                        width: 60px;
+                        bottom: -40px;
+                    }
+                }
+            }
+        }
+    }
+}

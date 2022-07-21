@@ -1,0 +1,196 @@
+html {
+    /* font-size:1.11vw; */
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-principal);
+    font-weight: var(--font-regular);
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: var(--font-medium);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1,
+.h1 {
+    font-size: 140px;
+    line-height: 1.05;
+    /* letter-spacing: 5px; */
+    /* font-size:9.72vw; */
+}
+
+h2,
+.h2 {
+    font-size: 78px;
+    line-height: 1.2;
+    /* font-size:5.42vw; */
+}
+
+h3,
+.h3 {
+    font-size: 50px;
+    /* font-size:3.47vw; */
+}
+
+h4,
+.h4 {
+    font-size:  30px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    /* font-size:2.08vw; */
+}
+
+h5,
+.h5,
+.text-20  {
+    font-size: 20px;
+    /* font-size:1.38vw; */
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+    /* font-size:1.25vw; */
+}
+
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-14 {
+    font-size: 0.875rem;
+}
+
+.text-34 {
+    font-size: 2.125rem;
+}
+
+.text-40 {
+    font-size: 2.5rem;
+}
+
+.lh-8 {
+    line-height: calc(var(--lh-base) + 0.8);
+}
+
+.lh-7 {
+    line-height: calc(var(--lh-base) + 0.7);
+}
+
+.lh-6 {
+    line-height: calc(var(--lh-base) + 0.6);
+}
+
+.lh-5 {
+    line-height: calc(var(--lh-base) + 0.5);
+}
+
+.lh-4 {
+    line-height: calc(var(--lh-base) + 0.4);
+}
+
+.lh-3 {
+    line-height: calc(var(--lh-base) + 0.3);
+}
+
+.lh-2 {
+    line-height: calc(var(--lh-base) + 0.2);
+}
+
+.lh-1 {
+    line-height: calc(var(--lh-base) + 0.1);
+}
+
+.lh-0 {
+    line-height: var(--lh-base);
+}
+
+
+
+@media only screen and (min-width:901px) and (max-width:1200px) {
+    html {
+        /* font-size:1.11vw; */
+        font-size: 12px;
+    }
+
+    body {
+        font-size: 1.5rem
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width: 900px) {
+    /*tablet vertical*/
+    /*mobile*/
+
+    html {
+        /* font-size:1.11vw; */
+        font-size: 14px;
+    }
+
+    body {
+        font-size: 1.429rem
+    }
+
+    .h1,
+    h1 {
+        font-size: 80px;
+    }
+
+    .h2,
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    html {
+        /* font-size:1.11vw; */
+        font-size: 8px;
+    }
+
+    body {
+        font-size: 2.25rem
+    }
+
+    h1, .h1{
+        font-size: 62px;
+    }
+
+    
+    .h2,
+    h2 {
+        font-size: 40px;
+    }
+
+    .h4,
+    h4 {
+        font-size: 26px;
+    }
+}

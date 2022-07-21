@@ -1,0 +1,111 @@
+.text-glyph {
+    display: inline-block;
+    background-image: url(../assets/imgs/text-glyph.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 42px;
+    height: 41px;
+    margin-left: 25px;
+}
+
+.underlined-coral-glyph {
+    display: inline-block;
+    position: relative;
+
+    .element {
+        display: inline-block;
+        position: absolute;
+        bottom: -50%;
+        left: -5%;
+        width: 120%;
+        height: 100%;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.underlined-dark-blue-glyph {
+    display: inline-block;
+    position: relative;
+
+    .element {
+        display: inline-block;
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.underlined-light-blue-glyph {
+    display: inline-block;
+    position: relative;
+
+    .element {
+        display: inline-block;
+        position: absolute;
+        bottom: -50%;
+        left: -5%;
+        width: 120%;
+        height: 100%;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.outlined-blue-glyph {
+    display: inline-block;
+    position: relative;
+
+    .element {
+        display: inline-block;
+        position: absolute;
+        top: -25%;
+        left: -6%;
+        width: 112%;
+        height: 150%;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.outlined-coral-glyph {
+    display: inline-block;
+    position: relative;
+
+    .text {
+        position: relative;
+        z-index: 2;
+    }
+
+    .element {
+        display: inline-block;
+        position: absolute;
+        top: -14%;
+        left: -8%;
+        width: 111%;
+        height: 138%;
+        z-index: 1;
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

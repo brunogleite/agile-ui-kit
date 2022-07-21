@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1541" height="1134" viewBox="0 0 1541 1134">
+  <defs>
+    <circle id="agile-centered-bg-a" cx="133.5" cy="133.5" r="133.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+    <circle cx="760.5" cy="559.5" r="327.5" stroke="#979797" stroke-width=".6"/>
+    <circle cx="760.5" cy="559.5" r="212.5" stroke="#979797" stroke-width=".6"/>
+    <circle cx="760.5" cy="559.5" r="559.5" stroke="#979797" stroke-width=".6"/>
+    <circle cx="760.5" cy="559.5" r="446.5" stroke="#979797" stroke-width=".6"/>
+    <use fill="#F0E3D8" transform="translate(1274 5)" xlink:href="#agile-centered-bg-a"/>
+    <circle cx="361.5" cy="358.5" r="47.5" fill="#094367"/>
+    <circle cx="1136.5" cy="786.5" r="47.5" fill="#094367"/>
+    <circle cx="102.5" cy="1030.5" r="102.5" fill="#F0E3D8"/>
+    <ellipse cx="1114.5" cy="271" fill="#EF6F6C" rx="39.5" ry="39"/>
+    <ellipse cx="475.5" cy="1037" fill="#EF6F6C" rx="39.5" ry="39"/>
+  </g>
+</svg>

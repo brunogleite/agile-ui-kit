@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="23" viewBox="0 0 39 23">
+  <defs>
+    <polygon id="icon-sprints-a" points="12.319 19.814 1.319 2.186 23.319 2.186"/>
+    <polygon id="icon-sprints-b" points="12.319 19.814 1.319 2.186 23.319 2.186"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 .556)">
+    <use fill="#0096EB" transform="matrix(0 1 1 0 1.319 -1.319)" xlink:href="#icon-sprints-a"/>
+    <use fill="#0096EB" transform="matrix(0 1 1 0 18.319 -1.319)" xlink:href="#icon-sprints-b"/>
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+.facts-wrapper {
+    .flex-container {
+        .fact {
+            .fact-value {
+                font-size: 80px;
+                line-height: 80px;
+                margin-bottom: 15px;
+            }
+
+            .fact-key {
+                font-size: 20px;
+            }
+
+            .fact-img {
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: 22px;
+                width: 22px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1400px) {
+    .facts-wrapper .flex-container .fact .fact-value {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .facts-wrapper {
+        .flex-container {
+            .fact .fact-value {
+                font-size: 60px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width: 900px) {
+    /*tablet vertical*/
+    /*mobile*/
+    #contents {
+        .facts-wrapper {
+            .flex-container {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+
+                .fact {
+                    margin-bottom: 15px;
+
+                    .fact-value {
+                        font-size: 55px;
+                        margin-bottom: 0;
+                        line-height: 1.5;
+                    }
+
+                    .fact-key {
+                        font-size: 20px;
+                    }
+
+                    .fact-img {
+                        margin-top: 10px;
+                    }
+
+                    &:nth-child(even) {
+                        padding-left: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #contents {
+        .facts-wrapper {
+            .flex-container {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+
+                .fact {
+                    margin-bottom: 15px;
+
+                    .fact-value {
+                        font-size: 37px;
+                        margin-bottom: 0;
+                        line-height: 1.5;
+                    }
+
+                    .fact-key {
+                        font-size: 16px;
+                    }
+
+                    .fact-img {
+                        margin-top: 10px;
+                    }
+
+                    &:nth-child(even) {
+                        padding-left: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

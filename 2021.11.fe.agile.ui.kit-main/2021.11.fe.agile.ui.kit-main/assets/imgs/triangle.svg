@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203" height="253" viewBox="0 0 203 253">
+  <defs>
+    <polygon id="triagle-a" points="141.664 227.86 15.164 25.14 268.164 25.14"/>
+  </defs>
+  <use fill="#0096EB" fill-rule="evenodd" transform="matrix(0 1 1 0 -24.836 -15.164)" xlink:href="#triagle-a"/>
+</svg>

@@ -1,0 +1,85 @@
+.contact-us {
+    .next-page-href-wrapper {
+        position: relative;
+
+        .figures {
+            position: absolute;
+            top: -100px;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+
+            .triangle {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                left: 0;
+                top: 0px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    -webkit-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                    transform: rotate(90deg);
+                }
+            }
+
+            .semi-circles {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                left: 150px;
+                top: 150px;
+
+                .semi-circle {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 150px;
+                    height: 75px;
+
+                    img {
+                        width: 75px;
+                        height: 150px;
+                        -webkit-transform: rotate(90deg);
+                        -ms-transform: rotate(90deg);
+                        transform: rotate(90deg);
+                        position: absolute;
+                        top: -37px;
+                        left: 37px;
+                    }
+
+                    &:last-child {
+                        top: 75px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width: 900px) {
+    /*tablet vertical*/
+    /*mobile*/
+    #contents {
+        .contact-us {
+            margin-top: 250px;
+            margin-bottom: -50px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #contents {
+        .contact-us {
+            margin-top: 250px;
+            margin-bottom: -50px;
+
+             .open-contacts span{
+                display: block;
+            }
+        }
+    }
+}
